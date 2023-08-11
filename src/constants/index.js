@@ -44,7 +44,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Blockchain Developer",
       icon: backend,
     }
   ];

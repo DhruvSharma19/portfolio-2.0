@@ -25,13 +25,15 @@ const Contact = () => {
     });
   };
 
+ 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_weuu4ar",
+        "template_fpvknfv",
         {
           from_name: form.name,
           to_name: "Dhruv Sharma",
@@ -39,7 +41,7 @@ const Contact = () => {
           to_email: "dhruvamsh@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "sxrjOmySzU7DR8zHP"
       )
       .then(
         () => {
