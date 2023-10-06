@@ -44,10 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a 3rd-year student at NIT Kurukshetra with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
+        Hello, my name is Dhruv Sharma. I am currently in my third year pursuing a B.Tech degree in Computer Science. I have a strong foundation in programming languages like C++, Java, and Python, along with experience in MERN stack development, blockchain technology, Next.js, TypeScript, HTML, CSS, and JavaScript. I've applied my skills to develop various projects that showcase my proficiency in these technologies. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
